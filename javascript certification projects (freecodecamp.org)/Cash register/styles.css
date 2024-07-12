@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 37%, 17%);
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+#change-due {
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input{
+    font-size: 1rem;
+    width: 250px;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+}
+
+.container button{
+    background-color: rgb(236, 181, 29);
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid rgb(143, 97, 11);
+    margin-bottom: 100px;
+}
+
+.changes h2 {
+    font-size: 1rem;
+
+}
+
+.cash-register{
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.changes{
+    color: black;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%
+}
+
+.total{
+    color: white;
+}
+
+.cash-register{
+    color: black;
+}
